@@ -162,10 +162,6 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
         </ul>
 
       </nav>
@@ -193,89 +189,9 @@
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-game.svg
-                " alt="design icon" width="50">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game development</h4>
-
-                <p class="service-item-text">
-                  Building AI system into game.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="AR/VR icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  Development of websites.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-vr.svg" alt="vr app icon" width="50">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AR/VR</h4>
-
-                <p class="service-item-text">
-                  Research and developed AR/VR application.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  Personal hobby to take pictures and turn into professional.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
         <section class="projects">
 
-          <h3 class="h3 service-title">Portfolio</h3>
+          <h2 class="h2 service-title">Projects</h2>
 
           <ul class="filter-list">
 
@@ -285,6 +201,10 @@
 
             <li class="filter-item">
               <button data-filter-btn>Game/Graphic development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Dev</button>
             </li>
 
             <li class="filter-item">
@@ -322,6 +242,10 @@
               <li class="select-item">
                 <button data-select-item>Game/Graphic development</button>
               </li>
+              
+              <li class="select-item">
+                <button data-select-item>Mobile Dev</button>
+              </li>
 
               <li class="select-item">
                 <button data-select-item>Application</button>
@@ -341,6 +265,24 @@
 
           <ul class="project-list">
             
+            <li class="project-item  active" data-filter-item data-category="mobile dev">
+              <a href="https://github.com/akarhtutkaung/AvisBudget-Commission" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/AvisBudget-Commission.png" style="width: 50%; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 5px;" alt="AvisBudget-Commission" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Avis Budget Group <br>Commission Payout Calculator</h3>
+
+                <p class="project-category">Mobile Dev</p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="game/graphic development">
               <a href="https://github.com/akarhtutkaung/Back2Town" target="_blank" rel="noopener noreferrer">
 
@@ -712,291 +654,6 @@
               </div>
 
             </li>
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Game/Graphic development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Application</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>AR/VR</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Game/Graphic development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Application</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>AR/VR</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-            
-            <li class="project-item  active" data-filter-item data-category="game/graphic development">
-              <a href="https://github.com/akarhtutkaung/Back2Town" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/back2town.png" alt="back2town" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Back2Town</h3>
-
-                <p class="project-category">Game/Graphic development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="game/graphic development">
-              <a href="https://github.com/akarhtutkaung/Space-Warefare" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/space-warefare.png" alt="Space-Warefare" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Space-Warefare</h3>
-
-                <p class="project-category">Game/Graphic development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="application">
-              <a href="https://github.com/akarhtutkaung/Directory-Locker" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/directory-locker.png" alt="directory-locker" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Directory Locker</h3>
-
-                <p class="project-category">Application</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/akarhtutkaung/Darkdown" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/darkdown.png" alt="darkdown" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Darkdown</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="application">
-              <a href="https://github.com/akarhtutkaung/Voting-System/tree/main/Project2" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/us-voting-system.png" alt="US-Voting-System" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Voting System - USA</h3>
-
-                <p class="project-category">Application</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/akarhtutkaung/Dribbbl" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/dribbbl.png" alt="dribbbl" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Dribbbl</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="game/graphic development">
-              <a href="https://github.com/akarhtutkaung/Ray-Casting-Image" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/ray-cast.jpg" alt="raycast-image" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Ray Casting Image</h3>
-
-                <p class="project-category">Game/Graphic Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="game/graphic development">
-              <a href="https://github.com/akarhtutkaung/Cloth-and-Fluid-Simulation" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/cloth-fluid-simulation.png" alt="cloth and fluid simulation" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Cloth and Fluid Simulation</h3>
-
-                <p class="project-category">Game/Graphic Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="application">
-              <a href="https://github.com/akarhtutkaung/Gopher-Chat-Room" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/gopherchat.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">GopherChat</h3>
-
-                <p class="project-category">Application</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="game/graphic development">
-              <a href="https://github.com/akarhtutkaung/RestaurantsRobotDemo/tree/main" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/RobotsInRestaurants.png" alt="RobotsInRestaurants" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Robots In Restaurants</h3>
-
-                <p class="project-category">Game/Graphic Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ar/vr">
-              <a href="https://github.com/akarhtutkaung/snowVR" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/projects/snowVR.png" alt="snowVR" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">SnowVR</h3>
-
-                <p class="project-category">AR/VR</p>
-
-              </a>
-            </li>
 
           </ul>
 
@@ -1007,11 +664,6 @@
     </div>
 
   </main>
-
-
-
-
-
 
   <!--
     - custom js link
