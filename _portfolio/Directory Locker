@@ -1,0 +1,58 @@
+---
+title: "Directory Locker"
+excerpt: "A simplified encrypted file system enabling secure sharing of encrypted data between users on a shared file system."
+collection: portfolio
+permalink: /portfolio/Shared_Directory_Locker/
+---
+[View on GitHub](https://github.com/akarhtutkaung/Directory-Locker)
+
+## Overview  
+**Shared Directory Locker** implements a streamlined encrypted file system designed for securely sharing encrypted files between users on a common file system.  
+The core idea: User A encrypts files in a shared directory; only User B, who holds the correct keys, can decrypt and access the data.
+
+## Use Case  
+User A wants to leave encrypted files for User B on a shared file system. Only User B can unlock and access these files using their private keys.
+
+## Usage
+
+### Compile  
+```bash
+make all
+```
+
+## Run
+
+### Generate Keys  
+Create a private and public key pair:
+
+```bash
+java keygen -s [subject] -d [directory] -f [filename]
+```
+
+- `[subject]`: A keyword to authenticate when accessing the lock file  
+- `[directory]`: Directory path to save the keys  
+- `[filename]`: Base filename for the public and private key files  
+
+### Lock a Directory  
+Encrypt and lock a directory for another user to unlock:
+
+```bash
+java lock -d [directory] -p [public key] -r [private key] -s [subject]
+```
+
+- `[directory]`: Path to the directory to lock  
+- `[public key]`: Public key path of the user who will unlock the directory  
+- `[private key]`: Private key path of the locking user  
+- `[subject]`: Subject string embedded in the unlocker's public key  
+
+### Unlock a Directory  
+Decrypt and unlock a previously locked directory:
+
+```bash
+java unlock -d [directory] -p [public key] -r [private key] -s [subject]
+```
+
+- `[directory]`: Path to the locked directory
+- `[public key]`: Public key path of the locking user
+- `[private key]`: Private key path of the unlocking user
+- `[subject]`: Subject string embedded in the locking user's public key

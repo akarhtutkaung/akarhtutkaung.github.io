@@ -1,0 +1,42 @@
+---
+title: "Core NLP XML to Brat Ann Converter"
+excerpt: "A Python tool to convert CoreNLP XML outputs into Brat annotation format, supporting Enhanced++ Dependencies with POS tagging and dependency relations."
+collection: portfolio
+permalink: /portfolio/CoreNLP_XML_to_Brat_Converter/
+---
+[View on GitHub](https://github.com/akarhtutkaung/CoreNLP_XML_To_Brat_Ann)
+
+## Overview  
+This Python script automates the conversion of CoreNLP XML files into the Brat annotation format, specifically handling Enhanced++ Dependencies. It extracts Part-of-Speech (POS) tags and syntactic dependency relations to generate annotation and visualization configuration files compatible with the Brat tool, streamlining linguistic annotation workflows.
+
+## Key Features
+
+- Parses CoreNLP XML structure using Python’s built-in `xml.etree.ElementTree` library.
+- Extracts tokens, POS tags, and dependency relations with Enhanced++ Dependencies support.
+- Generates Brat-compatible output files: `.ann` (annotations), `annotation.conf`, and `visual.conf`.
+- Designed for ease of use: run from the command line with a single XML input file.
+
+## Usage  
+Run the script in your terminal by specifying the input XML file:
+
+```bash
+python3 converter.py [fileToConvert.xml]
+```
+
+This produces three output files in the current directory:
+
+- `fileToConvert.ann` — Brat annotation file  
+- `annotation.conf` — Configuration for annotation labels  
+- `visual.conf` — Visualization settings  
+
+## Important Notes
+
+- The script relies solely on Python Standard Library modules, requiring no external dependencies.  
+- Input XML files must follow CoreNLP’s structure with `<document>`, `<sentences>`, `<tokens>`, and `<dependencies>` elements for proper parsing.  
+- This tool processes one XML file at a time and does not support batch conversion.  
+
+## Development Details
+
+- **Language:** Python  
+- **Libraries:** `xml.etree.ElementTree` (Standard Library)  
+- **Focus:** Natural Language Processing (NLP) annotation automation  

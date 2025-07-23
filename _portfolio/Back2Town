@@ -1,0 +1,112 @@
+---
+title: "Back2Town"
+excerpt: "An interactive 3D crowd simulation showcasing autonomous agents navigating a medieval town using Dijkstra’s algorithm with real-time obstacle placement, dynamic camera controls, and weather effects. Built in **Unity** with **C#**, this simulation emphasizes collision-free multi-agent pathfinding and immersive user interaction."
+collection: portfolio
+permalink: /portfolio/Back2Town/
+---
+
+[View on GitHub](https://github.com/akarhtutkaung/Back2Town)
+
+## Overview  
+**Back2Town** is an immersive 3D simulation created in **Unity** using **C#**, where autonomous agents navigate a town dynamically using **Dijkstra's algorithm**. The project supports real-time scene editing, weather effects, camera control, and showcases smooth NPC motion with crowd-based pathfinding.
+
+## Key Features
+
+### 🧭 Intelligent Pathfinding  
+Agents randomly select destination buildings and use **Dijkstra’s algorithm** to navigate efficiently through the town.
+
+### 🧱 Interactive Scene Setup  
+- Users can freely **add obstacles** to the environment.  
+- Obstacle placement includes real-time **distance control via mouse scroll**.  
+- Pressing `"P"` initiates the simulation once setup is complete.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193470396-2e9ae774-80c1-4ba4-94e1-72ee220617dc.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 🕹️ Real-Time User Interaction  
+During gameplay:  
+- Use the mouse to highlight movable (blue) vs non-movable (red) objects.  
+- Press `space-bar` while dragging to move selected objects dynamically.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193470420-02f74ef1-e133-451f-84b4-e0266ac65118.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 🚶 NPC Movement & Crowd Simulation  
+- Smooth multi-agent navigation with **collision-free** movement.  
+- Custom-designed NPC models.  
+- Realistic orientation smoothing and turning behavior.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193471370-13a8cd43-1eac-43ca-93eb-8121d3aeae0e.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 🧭 Dynamic Camera & View Modes  
+Switch between **eagle view** and **ground view** dynamically using `V` key.  
+Mouse controls allow full 3D panning for immersive inspection.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193470424-62c4aef8-8694-4343-9d46-2f4732240ee3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193470429-3be2277b-a139-4d9d-ada2-d1cf84ab635f.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### ❄️ Weather Effects  
+Features a snow particle system where flakes fall and disappear on contact with terrain, simulating dynamic winter weather.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193702529-adf8075f-e882-4d3d-b5ca-bf2addc2243f.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 🤖 Custom Assets  
+Includes original 3D-modeled robots designed by the developer.
+
+**Robot 1 (Floating)**  
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/193470442-27e3ed6f-59b1-4483-afd5-ff8e3f694e5d.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+**Robot 2**  
+![Robot 2](https://media.github.umn.edu/user/17933/files/d8332845-7ac1-4df1-8d1c-7535943f126f)
+
+## Challenges & Solutions
+
+### 🚧 Collision Avoidance  
+Porting TTC (Time-to-Collision) logic from Java to C# introduced discrepancies in vector calculations. Debugging focused on fixing subtle position misalignments causing residual collisions.
+
+### 🧱 Complex Geometry Colliders  
+Accurately mapping bounds for custom-shaped assets required manual tuning, especially for irregular building meshes.
+
+## Development Details  
+- **Platform:** Unity  
+- **Programming Language:** C#  
+- **Tools & Assets:** Blender (custom models), Unity Particle System, Line Renderer  
+- **AI Logic:** Dijkstra pathfinding, NPC random goal selection, dynamic obstacle detection
+
+## Credits  
+
+### External Assets  
+
+**Models**  
+- **Buildings** by Szymon Lukaszuk  
+  [Asset Store Link](https://assetstore.unity.com/packages/3d/environments/historic/lowpoly-medieval-buildings-58289)
+
+**Textures**  
+- **Ground** by Casual2D  
+  [Asset Store Link](https://assetstore.unity.com/packages/2d/textures-materials/nature/snow-cliff-materials-137086)  
+- **Sky** from Unity Built-in Library  
+
+**Libraries**  
+- **Laser Ray**: Unity built-in [Raycast](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) & [Line Renderer](https://docs.unity3d.com/Manual/class-LineRenderer.html)
+
+---
