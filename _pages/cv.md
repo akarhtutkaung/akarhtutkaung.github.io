@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<!-- Education
 ======
 * M.S. in Computer Science, University of Minnesota, 2023
 * B.S. in Computer Science, University of Minnesota, 2021
@@ -76,17 +76,17 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-<!-- Publications
+Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
-<!-- Talks
+Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
 Research
 ======
@@ -102,4 +102,8 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+
+[Click Here to Download](../files/CV_Akar_Kaung.pdf)
+
+<embed src="../files/CV_Akar_Kaung.pdf" width="100%" height="600px" type="application/pdf">

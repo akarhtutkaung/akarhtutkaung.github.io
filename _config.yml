@@ -89,7 +89,7 @@ publication_category:
   independent_research:
     title: 'Independent Research'
   lab_experience:
-    title: 'Research Experience'
+    title: 'Research lab Experience'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
