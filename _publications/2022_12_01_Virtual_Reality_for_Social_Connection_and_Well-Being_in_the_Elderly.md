@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Virtual Reality for Social Connection and Well-Being in the Elderly"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
+category: independent_research
+permalink: /publication/anaylsis_of_cloth_simulation_in_parallel_programming
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
+date: 2022-12-01
 venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+# slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
+# paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 
