@@ -1,0 +1,33 @@
+---
+title: "Autonomous Drone Transportation Simulation"
+excerpt: "A simulation of autonomous passenger drones featuring algorithmic flight control and passenger transport functionality. Developed using **C++**, **HTML**, **CSS**, and **JavaScript** with robust UML documentation and Agile development practices."
+collection: portfolio
+permalink: /portfolio/Autonomous_Drone_Transportation_Simulation/
+---
+
+## Overview  
+This project simulates autonomous passenger drones with advanced flight control algorithms and passenger transport capabilities. The system architecture is clearly documented using UML diagrams, and the codebase was optimized employing design patterns like Factory, Decorator, and Strategy to improve modularity and maintainability.
+
+## Key Features
+
+### 🚁 Autonomous Flight Control  
+- Algorithmic control for autonomous navigation and stable flight behavior of passenger drones.
+
+### 🛩️ Passenger Transport  
+- Functional simulation of drone passenger pick-up, transit, and drop-off mechanisms.
+
+### 📐 Robust Software Architecture  
+- UML diagrams extensively document the system for clarity and maintainability.  
+- Agile methodologies guided the iterative development process.
+
+### 🛠️ Design Patterns Applied  
+- Factory Pattern for object creation abstraction.  
+- Decorator Pattern for flexible feature extensions.  
+- Strategy Pattern for interchangeable algorithms and flight strategies.
+
+## Development Details  
+- **Languages:** C++, HTML, CSS, JavaScript  
+- **Tools:** UML for system modeling, Agile project management  
+- **Patterns:** Factory, Decorator, Strategy  
+
+---

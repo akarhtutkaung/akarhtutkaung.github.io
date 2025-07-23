@@ -1,0 +1,55 @@
+---
+title: "Cloth and Fluid Simulation"
+excerpt: "A high-fidelity simulation built with Processing, showcasing realistic cloth dynamics with collision detection and fluid wave interactions in an interactive 3D environment."
+collection: portfolio
+permalink: /portfolio/Cloth_and_Fluid_Simulation/
+---
+[View on GitHub](https://github.com/akarhtutkaung/Cloth-and-Fluid-Simulation)
+
+## Overview  
+This project delivers two advanced physics simulations — cloth and fluid — developed in **Processing**. The cloth simulation realistically models fabric behavior including collisions and natural draping, while the fluid simulation generates dynamic wave interactions based on user input. The project combines high-quality rendering, 3D visualization, and interactive controls to create a rich simulation experience.
+
+## Key Features
+
+### 🧵 Realistic Cloth Simulation  
+- Multiple ropes interconnected vertically and horizontally to form a dense, flexible fabric.  
+- Cloth deforms naturally around obstacles, responding dynamically to environmental forces.  
+- Rendered in a fully interactive 3D space allowing free camera movement.  
+- Applied realistic fabric textures for enhanced visual authenticity.  
+- User interaction enables moving obstacles and manipulating the camera to observe cloth behavior in real time.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/197096991-bf028a13-1423-42d2-8825-e656f715cdca.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 🌬️ Air Drag Simulation  
+- Introduces air resistance forces slowing the cloth’s motion, preventing immediate snap-back and producing natural movement dampening.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/197098678-fab38484-d485-4643-a7da-64baf86fdd7b.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 💧 Fluid Dynamics Simulation  
+- Implements a PDE-based fluid model to simulate water waves inside a pool.  
+- Waves react dynamically to external interactions, creating lifelike fluid motion.
+
+<video width="600" controls>
+  <source src="https://user-images.githubusercontent.com/76828992/197099927-e03eb14f-cec7-46c7-accc-9388d3d01d42.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Challenges & Solutions  
+- Achieving realistic cloth texturing was challenging due to limited documentation on UV mapping in Processing. Meticulous experimentation enabled natural fabric appearance.  
+- Integrating collision detection ensured seamless interaction between cloth and obstacles, enhancing realism.
+
+## Development Details  
+- **Platform:** Processing  
+- **Languages:** Java-based Processing  
+- **Simulation Focus:** Cloth physics, fluid wave modeling, interactive 3D rendering  
+
+## Credits  
+- **Cloth Texture:** [Fabric image](https://cdn.shopify.com/s/files/1/2454/1459/products/DREAMDR-02RED_5a0c2fff-d2d3-4a34-906e-9e868bc016eb.jpg?v=1508036643)
+
+---
