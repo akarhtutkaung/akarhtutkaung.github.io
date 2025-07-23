@@ -7,7 +7,7 @@ excerpt: 'This independent research analyzes cloth simulation performance using 
 date: 2023-05-01
 venue: 'Independent Research'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://akarhtutkaung.github.io/files/2023_03_01_Analysis_of_Cloth_Simulation_Using_Sequential_and_Parallel_Processing'
+paperurl: 'http://akarhtutkaung.github.io/files/2023_03_01_Analysis_of_Cloth_Simulation_Using_Sequential_and_Parallel_Processing.pdf'
 citation: 'Kaung, Akar. (2023). <i>Analysis of Cloth Simulation Using Sequential and Parallel Processing</i>. Independent Research.'
 ---
 
